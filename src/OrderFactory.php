@@ -8,10 +8,8 @@
  */
 class OrderFactory
 {
-    public function build(Cart $cart)
+    public static function build(Cart $cart)
     {
-        $order = new Order();
-        $order->addItems();
-        return $order;
+        return new Order($cart->getItems());
     }
 }

@@ -1,5 +1,5 @@
 <?php
-
+namespace Interfaces;
 /**
  * Created by PhpStorm.
  * User: akram-abdulrahman
